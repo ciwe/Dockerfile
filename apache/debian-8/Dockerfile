@@ -10,4 +10,4 @@ RUN sed -ri ' \
 
 EXPOSE 80
 
-CMD ["apache2 -D foreground"]
+CMD ["apache2-foreground","-D "]
